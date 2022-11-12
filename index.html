@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+
+   
+    <title>HOMEPAGE</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="he1">
+    
+            <a href="index.html" class="logo"><img src="image/Logo Transparent new.png" alt=""></a>
+            <a href="javascript:void(0);"  onclick="myFunction()">
+              <i class="fa-solid fa-bars-staggered aa"></i>
+            </a>
+            <form action="" class="search-form">
+               
+            </form>
+    
+            
+    
+        </div>
+    
+        <div class="he2" id="mytopnav">
+            <nav class="navbar">
+                <a href="#">L'ACCUEIL</a>
+                <a href="#home">A PROPOS</a>
+                <a href="#plombierchauffagiste">PLOMBIER & CHAUFFAGISTE </a>
+                <a href="#salledebains">SALLE DE BAINS</a>
+                <a href="contact.html">CONTACT</a>
+              
+              
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="image/IMG2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="image/IMG4.jfif" alt="">
+          </div>
+          <div class="slide">
+            <img src="image/plumbing-01_slide1-copyright.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="image/plumbing-01_slide3-copyright.jpg" alt="">
+          </div>
+          
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5800);
+      </script>
+
+
+
+    <div class="home-image">
+        <div class="home-text" data-aos="fade-up" >
+       <br><br><br>
+            <h2> SamSanit'Air </h2> 
+            <p><br> Chauffage-Climatisation-Plomberie  <br> Salle de Bains Séniors-PMR <br> Audit-Études Techniques & Installation </p><br><br>
+            <a href="contact.html"> <span></span>  NOUS CONTACTER </a>
+               
+        </div>
+    </div>
+
+  
+
+   
+    <section class="iconss" id="home"  >
+    
+      <div class="icons a" data-aos="fade-left" data-aos-duration="1000">
+      
+        <i class="fa-solid fa-phone"></i>
+          <div class="content">
+            <br><br><br><br><br><br>
+              <h3>TÉL: <B>33 33 33 33 33</B></h3>
+          </div>
+      </div>
+  
+      <div class="icons b" data-aos="fade-left" data-aos-duration="1000">
+         
+        <i class="fa-solid fa-location-dot"></i>
+          <div class="content">
+            <br><br><br><br><br><br>
+              <h3><a href="https://goo.gl/maps/Djrv3GNQWXGRvvfB6">   Villenave-d'Ornon
+                <br> 33140
+                France</a></h3>
+             
+          </div>
+      </div>
+  
+      <div class="icons c" data-aos="fade-left" data-aos-duration="1000">
+        <i class="fa-solid fa-envelope"></i>
+          <div class="content">
+            <br><br><br><br><br><br>
+              <h3><a href="contact.html">Contactez-Nous</a></h3>
+         
+          </div>
+      </div>
+  
+
+  
+  </section>
+
+
+
+
+
+
+
+<section class="pp" data-aos="fade-right"  data-aos-duration="1000" >
+
+  <h3><SPan> SamSanit'Air </SPan> est une entreprise implantée à la région bordelaise à Villenave-d'Ornon,  Nous proposons une large gamme de solutions sur mesure dans les domaines de la plomberie, chauffage, climatisation, énergies renouvelables, sanitaire et la rénovation de salle de bains.</h3><br>
+
+</section>
+    
+    
+    
+
+
+    
+
+
+
+
+<div class="titre-text" data-aos="fade-up" data-aos-delay="300">
+  <br><br><br><br>
+    <p>NOS PRESTATIONS</p><br><br>
+  </div>
+<img class="s2" src="image/S2.png" alt="">
+
+
+
+
+
+<section class="home" id="home">
+    <div class="temoignagee-boite" >
+      
+        <div class="temoignage-simple">
+          <div class="box_icon1"></div>
+          <br><br><br><br>
+          <h3>Énergies renouvelables</h3>
+             <p>Spécialisée dans l’installation d’équipements à énergie renouvelable, nous propose diverses solutions vous permettant d’améliorer votre confort tout en réalisant des économies : solaire photovoltaïque, chauffe-eau solaire, PAC aérothermique/géothermique, poêle à bois, chaudière à granulés…</p>
+             <br>
+             <p><a class="mbtn_2" href="#plombierchauffagiste">En savoir plus</a></p>
+        </div>
+      
+        <div class="temoignage-simple">
+          <div class="box_icon2"></div>
+          <br><br><br><br>
+          <h3>Chauffage</h3>
+            <p>En fonction de vos besoins, nous propose un vaste choix de chauffages performants et fiables. Que vous soyez un particulier ou un professionnel, nous vous assurons l’installation, la maintenance et le dépannage de tous vos appareils de chauffage : chaudières gaz à condensation, chaudière fioul, chaudière électrique…</p>
+            <br>
+            <p><a class="mbtn_2" href="#plombierchauffagiste">En savoir plus</a></p>
+          </div>
+       
+        <div class="temoignage-simple">
+          <div class="box_icon3"></div>
+          <br><br>
+          <h3>Salle de bains Séniors-PMR </h3>
+            <p>Spécialisée en rénovation de salle de bains, notre entreprise déploie tout son savoir-faire pour vous assurer des prestations sur-mesure. En effet, nous aménageons des salles de bains adaptées aux personnes à mobilité réduite (PMR) et assurons également la pose de vos meubles, baignoires, lavabos, vasques…</p>
+            <br>
+            <p><a class="mbtn_2" href="#salledebains">En savoir plus</a></p>
+          </div>
+     
+
+        <div class="temoignage-simple">
+          <div class="box_icon4"></div>
+          <br><br><br>
+               <h3>Plomberie & Sanitaire </h3>
+          <p>Nous prenons en charge l’installation, la réparation et le dépannage de tous vos équipements de plomberie. Nous intervenons également pour tous vos travaux de tuyauteries, des plus simples aux plus complexes.</p>
+          <br>
+          <p><a class="mbtn_2" href="#plomberie">En savoir plus</a></p>
+       
+        </div>
+
+      <div class="temoignage-simple">
+        <div class="box_icon5"></div>   
+        <br><br><br>
+        <h3>Travaux d'assainissement</h3>    <br>
+
+          <p><b> Recherche de fuite : </b> <br> enquête et réparation <br><br>
+           <b> Equipements techniques et sanitaires: </b> Installation et maintenance</p>
+            <br>
+            <p><a class="mbtn_2" href="#plomberie">En savoir plus</a></p>
+          </div>
+
+      <div class="temoignage-simple">
+      <div class="box_icon2"></div>
+      <br><br><br>
+      <h3>Climatisation</h3>  
+          <p> <b> SamSanit'Air </b> bénéficie d’une solide expérience dans le domaine des climatiseurs. Il utilise du matériel performant et de qualité afin de vous garantir une entière satisfaction lors de l’installation de votre système de climatisation.</p>
+          <br>
+          <p><a class="mbtn_2" href="#climatisation">En savoir plus</a></p>
+          <br>
+        </div>
+
+
+ 
+
+
+    </div>
+</section>
+<img class="s1" src="image/S1.png" alt="">
+
+
+
+
+
+
+
+
+
+
+<section class="main" id="plombierchauffagiste">
+  <div class="titre-text2"   data-aos="fade-up" data-aos-delay="300" >
+    <br><br><br><br>
+      <p>PLOMBERIE & CHAUFFAGE</p><br><br>
+    </div>
+<div class="row1">
+<div class="txxt" data-aos="fade-right"   data-aos-duration="800">
+<h2 >Artisan chauffagiste</h2>
+<hr>
+<p>L'entreprise <b>SamSanit'Air</b> est engagée dans la promotion des <b>énergies renouvelables</b> et la rénovation de l'habitat. <br> Nous réalisons vos équipements de chauffage de type : installation de chaudière à granulé de bois, Chaudières bois bûche, pompe à chaleur etc. <br></p>
+<br><p>L'entreprise <b>SamSanit'Air</b> réalise aussi tous vos équipements de chauffage traditionnel :</p>
+<ul>
+    <li>Chaudière gaz</li>
+    <li>Chaudière fioul</li>
+    <li>Chaudière électrique</li>
+    <li>Radiateurs</li>
+    <li>Plancher chauffant</li><br><br>
+</ul>
+</div>
+<div class="imgg"><br><br><br>
+<img src="image/chauffage-central-gaz.jpg" alt=""  data-aos="fade-left"   data-aos-duration="800"> 
+</div>
+</div>
+
+<br><br><br><br><br><br>
+
+<div class="row2" id="plomberie">
+   
+    <div class="imgg">
+    <img src="image/I7.jpg" alt=""  data-aos="fade-left"   data-aos-duration="800"> 
+    </div>
+
+    <div class="txxt" data-aos="fade-right"   data-aos-duration="800">
+        <h2>Plomberie</h2>
+        <hr>
+        <p><b> Entretien, dépannage et travaux de maintenance en plomberie :</b></p>
+        <ul>
+            <li>Réparation des fuites de tuyauterie</li>
+            <li>Rénovation et entretien du réseau de plomberie</li>
+            <li>Remplacement robinetterie, évier, lavabo et tout appareil sanitaire</li>
+            <li>Remplacement Chauffe eau électrique ou cumulus</li>
+            <li>Dépannage de groupe de sécurité de chauffe-eau</li>
+            <li>Installation de réducteur de pression</li>
+    
+        </ul>
+<br>
+        <p><b>Traitement de l'eau :</b></p>
+        <ul>
+            <li>Eliminer le calcaire à l’aide d’un adoucisseur</li>
+            <li>Filtrer l’eau pour enlever les particules avec des filtres micrométriques</li>
+            <li>Filtrer l’eau avec du charbon actif pour absorber le chlore et les matières organiques et pouvoir consommer l’eau du robinet sans goût et sans odeur.</li>
+           
+            <br><br>
+        </ul>
+
+        </div>
+
+    </div>
+
+
+    <br><br><br><br><br><br>
+
+    <div class="row3" id="climatisation">
+        <div class="txxt" data-aos="fade-right"   data-aos-duration="800">
+           
+        <h2 >Pose de climatisation</h2>
+        <hr>
+        <br><br>
+        <p>Pour votre confort d’été, la pose de climatisations réversibles économiques et performantes :</p>
+       <br><br>
+        <ul>
+            <li>Mono split</li><br>
+            <li>Multi-split</li><br>
+            <li>Cassettes</li>
+         
+        </ul>
+        </div>
+        <div class="imgg">
+        <img src="image/climatiseur.jpg" alt="" data-aos="fade-left"   data-aos-duration="800"> 
+        </div>
+        </div>
+
+
+</section>
+
+
+
+
+<section class="parallax">
+</section>
+<div class="panels">
+
+
+
+
+  <div class="panel">
+    <h3>PLUSIEURS RAISONS DE <br>
+      SOLLICITER NOTRE ENTREPRISE</h3>
+    <div class="panel-title">
+    <span class="ico">
+    <svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" class="icon-Experience07"><path class="color1" d="M429 184.5c5.2 1.7 10.4 2.5 15.6 2.5 21.3 0 41.2-13.6 48.1-34.9 4.2-12.8 3.1-26.5-3-38.6 -6.1-12-16.6-21-29.4-25.1 -12.8-4.2-26.5-3.1-38.6 3 -12 6.1-21 16.6-25.1 29.4 -4.1 12.5-3 25.5 2.1 36.6l-61.3 43.5c-15.3-17-37.5-27.8-62.2-27.8 -5.4 0-10.6 0.5-15.7 1.5l-22.4-71.7c6.5-3.5 12.4-8.4 17-14.8 7.9-10.9 11.1-24.3 9-37.6s-9.3-25.1-20.2-33c-10.9-7.9-24.3-11.2-37.6-9 -13.3 2.1-25.1 9.3-33 20.2 -16.4 22.6-11.4 54.2 11.2 70.6 9 6.5 19.4 9.6 29.7 9.6 1.9 0 3.9-0.1 5.8-0.3l22.4 71.7c-26.2 11.7-45.3 36.4-49 65.9l-75.1-0.8c-1.3-7.4-4.3-14.5-8.9-20.7 -7.9-10.9-19.7-18.1-33-20.2 -13.3-2.1-26.7 1.1-37.6 9 -10.9 7.9-18.1 19.7-20.2 33 -2.1 13.3 1.1 26.7 9 37.6s19.7 18.1 33 20.2c2.7 0.4 5.4 0.6 8 0.6 10.6 0 20.9-3.3 29.6-9.7 10.3-7.5 17.3-18.4 19.8-30.8l75.1 0.8c3.1 29.7 21.7 54.8 47.6 67l-24 71.2c-7.3-1-15-0.4-22.4 2 -26.5 8.6-41.1 37.2-32.5 63.7 6.9 21.3 26.8 34.9 48.1 34.9 5.2 0 10.4-0.8 15.6-2.5 12.8-4.2 23.3-13.1 29.4-25.1 6.1-12 7.2-25.7 3-38.6 -4.1-12.5-12.6-22.3-23.2-28.4l24-71.2c5.6 1.2 11.5 1.9 17.5 1.9 24 0 45.6-10.2 60.9-26.4l60.3 44.8c-3.2 6.6-5 14.1-5 22 0 27.9 22.7 50.6 50.6 50.6 27.9 0 50.6-22.7 50.6-50.6 0-27.9-22.7-50.6-50.6-50.6 -13.1 0-25.1 5-34.1 13.3l-60.3-44.8c7.2-12.3 11.3-26.6 11.3-41.9 0-14.6-3.8-28.3-10.4-40.3l61.2-43.5C415 178.1 421.5 182.1 429 184.5zM194.6 83.9c-14-10.2-17.2-29.9-7-44 4.9-6.8 12.2-11.3 20.5-12.6 1.7-0.3 3.3-0.4 5-0.4 6.6 0 13 2.1 18.4 6 6.8 4.9 11.3 12.2 12.6 20.5s-0.7 16.6-5.6 23.4C228.4 90.9 208.7 94.1 194.6 83.9zM236.8 467.9c-3.8 7.5-10.3 13-18.3 15.6 -8 2.6-16.5 1.9-24-1.9 -7.5-3.8-13-10.3-15.6-18.3 -5.4-16.5 3.7-34.3 20.2-39.7 3.2-1 6.5-1.5 9.7-1.5 13.3 0 25.6 8.5 30 21.8C241.3 451.9 240.7 460.4 236.8 467.9zM441.9 349.2c17.4 0 31.5 14.1 31.5 31.5 0 17.4-14.1 31.5-31.5 31.5 -17.4 0-31.5-14.1-31.5-31.5C410.4 363.3 424.6 349.2 441.9 349.2zM98.5 259.3c-1.3 8.3-5.8 15.6-12.6 20.5 -6.8 4.9-15.1 6.9-23.4 5.6 -8.3-1.3-15.6-5.8-20.5-12.6 -4.9-6.8-6.9-15.1-5.6-23.4 1.3-8.3 5.8-15.6 12.6-20.5 5.4-3.9 11.8-6 18.4-6 1.7 0 3.3 0.1 5 0.4 8.3 1.3 15.6 5.8 20.5 12.6C97.8 242.7 99.8 251 98.5 259.3zM275.2 321.2c-7 0-13.8-1.2-20.2-3.2 -0.1-0.1-0.3-0.1-0.4-0.2 -0.1 0-0.3-0.1-0.4-0.1 -25.3-8.7-43.5-32.8-43.5-61 0 0 0-0.1 0-0.1 0-0.2 0-0.4 0-0.6 0-0.1 0-0.2 0-0.3 0.5-28.2 19.1-52 44.6-60.3 0.2-0.1 0.4-0.1 0.6-0.2 0.2-0.1 0.4-0.1 0.6-0.2 5.9-1.8 12.2-2.8 18.7-2.8 35.6 0 64.5 28.9 64.5 64.5 0 14.4-4.7 27.6-12.7 38.4 0 0-0.1 0.1-0.1 0.1 0 0.1-0.1 0.1-0.1 0.2C315 311 296.3 321.2 275.2 321.2zM414.7 126.7c2.6-8 8.2-14.5 15.6-18.3 4.5-2.3 9.4-3.4 14.3-3.4 3.3 0 6.6 0.5 9.8 1.6 16.5 5.4 25.6 23.2 20.2 39.7 -5.4 16.5-23.2 25.6-39.7 20.2 -8-2.6-14.5-8.2-18.3-15.6C412.7 143.2 412.1 134.7 414.7 126.7zM310 242.9l-17-2.5c-2-0.3-3.8-1.6-4.7-3.4l-7.6-15.4c-2.3-4.7-8.9-4.7-11.2 0L262 237c-0.9 1.8-2.7 3.1-4.7 3.4l-17 2.5c-5.1 0.7-7.2 7.1-3.5 10.7l12.3 12c1.5 1.4 2.1 3.5 1.8 5.5l-2.9 16.9c-0.9 5.1 4.5 9 9.1 6.6l15.2-8c1.8-1 4-1 5.8 0l15.2 8c4.6 2.4 10-1.5 9.1-6.6l-2.9-16.9c-0.3-2 0.3-4.1 1.8-5.5l12.3-12C317.2 249.9 315.2 243.6 310 242.9z"></path></svg>
+    </span>
+    <span class="text">
+    <span>Expérience</span>
+    </span>
+    </div>
+    <div class="panel-content">
+      <p></p>
+      </div>
+    
+    </div>
+
+
+    <div class="panel">
+      <div class="panel-title">
+      <span class="ico">
+      <svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" class="icon-loyalty06"><path class="color1" d="M503.2 232.2L440 103.3c-1.2-2.4-3.3-4.2-5.9-5 -2.6-0.8-5.3-0.4-7.6 1L381 127c-4.2 2.6-5.8 7.9-3.6 12.4l57.3 116.9c-3.3-2.3-7.9-2.3-11.3 0.3 -7.8 6-12.6 11.7-15.7 18.3 -1.3 2.7-1.1 5.8 0.2 8.3l-21.3-11.5L248.8 189c-5.1-3.1-11.5-3.1-16.6-0.1 -23.4 13.5-42.2 17.2-57.4 11.1 0.9-1.2 2.4-2.8 4.9-4.6 5.1-3.7 18-14.7 31.6-26.3 12.9-11 29-24.7 32.9-27.3 4.4-2.9 12-3 14.3-2.7 0.3 0 0.6 0 0.9 0h32.3c12.3 0 16.7 3.8 19.9 6.6 0.2 0.2 0.5 0.4 0.8 0.8 25.3 22.9 48.3 21.5 63.1 16.3 5-1.8 7.6-7.2 5.8-12.2 -1.8-5-7.2-7.6-12.2-5.8 -21.7 7.7-38.4-7.4-43.9-12.4 -0.5-0.4-0.9-0.8-1.2-1 -6.7-5.8-15.3-11.2-32.4-11.2h-31.8c-3.1-0.2-16.2-0.8-26.3 5.9 -4.5 3-16.1 12.8-34.7 28.6 -12.8 10.9-25.9 22.1-30.5 25.4 -7.9 5.7-12.6 12.3-13.6 19.1 -0.7 4.4 0.4 8.7 2.9 12.1 1.4 1.9 3.3 3.5 5.6 4.6 21.6 10.8 46.8 7.6 77.1-9.6l136.6 81.9c0.1 0.1 0.3 0.2 0.4 0.2l22 11.8c5.3 2.8 7.6 9.4 5 14.5 -1.3 2.7-3.6 4.6-6.4 5.5 -2.8 0.9-5.8 0.6-8.4-0.8l-46.4-24.9c-4-2.1-8.9-1.2-11.8 2.2 -2.9 3.4-3 8.4-0.3 12l0.3 0.4c0.8 1.1 1.9 2 3.1 2.6l25.7 13.8c5.2 2.8 7.2 9.4 4.4 14.6 -2.8 5.2-9.4 7.2-14.7 4.4l-17.3-9.1c-1.4-1.1-2.9-2.1-4.5-2.9 -0.1 0-0.1-0.1-0.2-0.1l-16.8-8.5c-4.3-2.2-9.6-0.8-12.3 3.3 -2.7 4.1-1.9 9.5 1.9 12.6l1.1 0.9c0.5 0.4 1.1 0.8 1.7 1.1l18.2 9.5c3.2 3.3 4.1 8.4 1.8 12.7 -2.8 5.3-9.4 7.2-14.6 4.4 0 0-0.1 0-0.1-0.1L288 357.7c-4.7-2.4-10.4-0.6-12.8 4 -2.4 4.6-0.7 10.4 3.9 12.9 2.6 1.4 4.5 3.7 5.3 6.6 0.8 2.8 0.4 5.8-1.1 8.4 -2.9 5-9.6 6.7-14.9 3.8l-1.4-0.8c-4.6-2.5-10.4-0.7-12.9 3.9 -2.5 4.6-0.7 10.4 3.9 12.9l1.4 0.8c4.7 2.5 9.7 3.7 14.6 3.7 10.3 0 20.3-5.3 25.8-14.7 2.2-3.8 3.5-7.9 4-12.2 13.7 5 29.4-0.7 36.6-14 1.8-3.3 2.9-6.8 3.3-10.3 14 5.8 30.5 0.1 37.8-13.5 1.9-3.5 3-7.3 3.4-11.1 6.1 2.2 12.7 2.3 19 0.2 7.8-2.5 14.1-7.9 17.7-15.3 5.9-12 3-26-6.4-34.9 0.4 0.1 0.8 0.1 1.2 0.1 3.6 0 7.1-2.1 8.7-5.6 1.1-2.5 3.3-6 10-11.2 2.3-1.8 3.6-4.4 3.7-7.1l1.8 3.7c1.2 2.4 3.3 4.2 5.9 5 0.9 0.3 1.8 0.4 2.7 0.4 1.7 0 3.5-0.5 5-1.4l45.4-27.6C503.8 242 505.4 236.7 503.2 232.2zM453.2 250.5l-54.8-111.7 29-17.7 54.8 111.7L453.2 250.5zM264.9 347.1c-2.4-7.8-7.8-14.1-15-17.9 -4.6-2.4-9.4-3.5-14.1-3.5 -0.1-2.5-0.6-5-1.4-7.5 -2.4-7.8-7.8-14.1-15-17.9 -5.2-2.7-10.9-3.7-16.5-3.3 -0.9-10-6.7-19.4-16.3-24.4 -7.2-3.8-15.4-4.5-23.2-2 -2.3 0.7-4.5 1.7-6.5 2.9 -2.8-4.7-6.9-8.6-12-11.3 -14.5-7.6-32.4-2.2-40.5 11.9 -3.1-6.5-8.8-13.5-21.6-22 -1-0.6-2-1.1-3.1-1.3l45.9-93.7c0.6 0.5 1.2 1 1.9 1.3 10.8 5.6 20.3 7.7 28.7 7.7 16.1 0 28.1-7.9 37.8-14.3 4.9-3.2 9.5-6.2 14-8 4.9-1.9 7.3-7.5 5.4-12.4 -1.9-4.9-7.5-7.3-12.4-5.4 -6.4 2.5-12.1 6.2-17.5 9.8 -14.2 9.4-25.5 16.8-47.2 5.5 -0.8-0.4-1.7-0.7-2.6-0.9l0.6-1.2c2.2-4.4 0.6-9.8-3.6-12.4L85.5 99.4c-2.3-1.4-5.1-1.8-7.6-1 -2.6 0.8-4.7 2.6-5.9 5L8.8 232.2c-2.2 4.4-0.6 9.8 3.6 12.4l45.4 27.6c1.5 0.9 3.2 1.4 5 1.4 0.9 0 1.8-0.1 2.7-0.4 2.6-0.8 4.7-2.6 5.9-5l0.4-0.8c0.2 0.2 0.4 0.3 0.7 0.5 13.7 9.2 15.2 14.1 16.8 19.3 0.7 2.5 2.4 4.5 4.6 5.6l-7.4 12.8c-0.1 0.1-0.1 0.2-0.2 0.4 -3.8 7.2-4.5 15.4-2 23.2s7.8 14.1 15 17.9c4.4 2.3 9.2 3.4 14 3.4 2.8 0 5.6-0.4 8.4-1.2 2.5 7.1 7.5 13.3 14.7 17.1 4.5 2.3 9.3 3.4 14 3.4 2.9 0 5.7-0.4 8.4-1.2 2.6 7.4 7.7 13.5 14.7 17.1 4.4 2.3 9.2 3.4 14 3.4 2.8 0 5.6-0.4 8.4-1.2 2.5 7.1 7.5 13.3 14.7 17.1 4.4 2.3 9.2 3.4 14 3.4 3.1 0 6.2-0.5 9.2-1.4 7.8-2.4 14.1-7.8 17.9-15l11.4-22C266.7 363.1 267.4 354.9 264.9 347.1zM58.8 250.5l-29-17.7 54.8-111.7 29 17.7L58.8 250.5zM107.9 330.3L107.9 330.3c-2.7-1.4-4.7-3.8-5.6-6.7 -0.9-2.9-0.7-5.9 0.7-8.5l17.7-30.7c0.1-0.1 0.1-0.2 0.2-0.4 1.4-2.7 3.8-4.7 6.7-5.6 2.9-0.9 6-0.7 8.7 0.7 4.8 2.5 7.1 8 5.7 13.1l-18.6 32.9c-0.1 0.1-0.1 0.2-0.2 0.3 -1.4 2.7-3.8 4.7-6.7 5.6C113.6 331.9 110.6 331.7 107.9 330.3zM145 349.6c-5.5-2.9-7.7-9.7-4.9-15.2l17.7-30.7c0.1-0.1 0.1-0.2 0.2-0.4 0.6-1.1 1-2.2 1.5-3.3l3-5.4c0.1-0.1 0.1-0.2 0.2-0.3 1.4-2.7 3.8-4.7 6.7-5.6 2.9-0.9 6-0.7 8.7 0.7 5.5 2.9 7.7 9.7 4.9 15.2l-4 7c-0.3 0.5-0.5 0.9-0.8 1.4l-17.6 31.2c-0.1 0.1-0.1 0.2-0.2 0.3C157.4 350.3 150.6 352.5 145 349.6zM182.1 368.9C182.1 368.9 182.1 368.9 182.1 368.9c-2.7-1.4-4.7-3.8-5.6-6.7 -0.9-2.9-0.7-5.9 0.7-8.5l16.2-28.7 1.7-3c3-5.4 10.2-7.6 15.7-4.8 2.7 1.4 4.6 3.8 5.6 6.7 0.9 2.9 0.7 5.9-0.7 8.5l-4.1 7.2c-0.4 0.6-0.7 1.2-1.1 1.8l-12.8 22.3c-0.1 0.1-0.1 0.2-0.2 0.4 -1.4 2.7-3.8 4.7-6.7 5.6C187.9 370.6 184.8 370.3 182.1 368.9zM246 361.5l-11.4 22c-1.4 2.7-3.8 4.6-6.7 5.6 -2.9 0.9-6 0.7-8.7-0.7 -5.5-2.9-7.7-9.7-4.9-15.2l3.2-5.5 10.5-18.1c3-4.6 8.1-5.9 13.2-3.3 2.7 1.4 4.7 3.8 5.6 6.7S247.4 358.8 246 361.5z"></path></svg>
+      </span>
+      <span class="text">
+      <span>Travail de qualité</span>
+      </span>
+      </div>
+      <div class="panel-content">
+      <p>Soucieux de vous satisfaire, nous <br> engageons à intervenir selon vos impératifs.</p>
+      </div>
+      </div>
+
+
+
+      <div class="panel">
+        <div class="panel-title">
+        <span class="ico">
+        <svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" class="icon-engineering"><path class="color1" d="M256.5,185.82a71.68,71.68,0,1,0,71.68,71.68A71.76,71.76,0,0,0,256.5,185.82Zm0,122.88a51.2,51.2,0,1,1,51.2-51.2A51.26,51.26,0,0,1,256.5,308.7Zm247.41-92.48-54.65-8.93a196.55,196.55,0,0,0-21.15-50.77L460,111A10.23,10.23,0,0,0,458.9,97.9L415.46,54.46a10.25,10.25,0,0,0-13.22-1.08l-45,32.36A197.54,197.54,0,0,0,306.4,64.67L296.82,10A10.25,10.25,0,0,0,286.73,1.5H225.29a10.24,10.24,0,0,0-10.11,8.59l-8.93,54.68a197.74,197.74,0,0,0-50.32,20.89L110.7,53.33a10.25,10.25,0,0,0-13.2,1.09L54,97.86A10.23,10.23,0,0,0,52.9,111l31.93,45.62a197.43,197.43,0,0,0-21,50.52L9.06,216.22A10.24,10.24,0,0,0,.5,226.32v61.44A10.23,10.23,0,0,0,9,297.84l54.73,9.7a197.93,197.93,0,0,0,20.94,50.52L52.3,403.26a10.25,10.25,0,0,0,1.09,13.2l43.44,43.43A10.26,10.26,0,0,0,109.93,461l45.6-31.9a197,197,0,0,0,50.52,21l9.13,54.76a10.24,10.24,0,0,0,10.1,8.56h61.44a10.23,10.23,0,0,0,10.08-8.45l9.71-54.75a197.17,197.17,0,0,0,51-21.2L403.05,461a10.22,10.22,0,0,0,13.12-1.14l43.43-43.43a10.24,10.24,0,0,0,1.07-13.22l-32.39-45a196.78,196.78,0,0,0,21.05-50.78l54.7-9.59a10.24,10.24,0,0,0,8.47-10.09V226.32A10.24,10.24,0,0,0,503.91,216.22ZM492,279.16l-52.85,9.26a10.26,10.26,0,0,0-8.23,7.88,176.67,176.67,0,0,1-23.59,56.88,10.23,10.23,0,0,0,.33,11.48L439,408.14l-31.19,31.19-44-30.85a10.19,10.19,0,0,0-11.39-.25,176.8,176.8,0,0,1-57,23.68,10.24,10.24,0,0,0-7.86,8.21L278.15,493H234l-8.81-52.88a10.23,10.23,0,0,0-7.87-8.31,176.65,176.65,0,0,1-56.6-23.56,10.21,10.21,0,0,0-11.38.24l-44.07,30.83L74,408.12l31.22-43.65a10.25,10.25,0,0,0,.32-11.44,177.7,177.7,0,0,1-23.48-56.62,10.23,10.23,0,0,0-8.21-7.86L21,279.18V235l52.84-8.79a10.24,10.24,0,0,0,8.31-7.86,177.15,177.15,0,0,1,23.57-56.62,10.24,10.24,0,0,0-.25-11.37L74.6,106.27,105.85,75l43.68,31.21a10.27,10.27,0,0,0,11.44.32,177.47,177.47,0,0,1,56.52-23.45,10.24,10.24,0,0,0,7.88-8.35L234,22h44.14l9.25,52.84a10.25,10.25,0,0,0,7.87,8.23,177.31,177.31,0,0,1,56.93,23.62,10.22,10.22,0,0,0,11.47-.32L407.13,75.1l31.21,31.2-30.86,44a10.25,10.25,0,0,0-.25,11.4,176.25,176.25,0,0,1,23.67,56.86,10.25,10.25,0,0,0,8.35,7.88L492,235Zm-235.52-165c-79,0-143.36,64.31-143.36,143.35S177.45,400.86,256.5,400.86s143.36-64.32,143.36-143.37S335.55,114.14,256.5,114.14Zm0,266.24A122.88,122.88,0,1,1,379.38,257.49,123,123,0,0,1,256.5,380.38Z"></path></svg>
+        </span>
+        <span class="text">
+        <span>Installations aux normes</span>
+        </span>
+        </div>
+        <div class="panel-content">
+        <p>Nous vous garantissons des installations <br> conformes aux standards de qualité.</p>
+        </div>
+        </div>
+
+
+
+
+        <div class="panel">
+          <div class="panel-title">
+          <span class="ico">
+          <svg width="40" height="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" class="icon-Misc08"><path class="color1" d="M235.2 431.9h-11.9c1.7-20.4 4.5-63-1.4-80.7 -8.4-25.1-72.5-79-109.9-101.7 -8.4-5.1-16.4-7.8-23.6-8.8 -3.7-9.6-10.6-30.7-9-48.5 1.4-16.6 5.3-60.6-42.2-75.4 -4.6-1.4-9.5-0.8-13.5 1.8 -4 2.5-6.7 6.7-7.3 11.4 -3 21.3-12.3 97.6-6.5 184.3 0.4 6.5 3.1 12.8 7.5 17.7l85.1 95.7c0.6 0.7 1 1.7 1 2.6v1.6H90.7c-5.3 0-9.5 4.3-9.5 9.5v50c0 5.3 4.3 9.5 9.5 9.5s9.5-4.3 9.5-9.5V451h112.6c0 0 0 0 0 0 0 0 0 0 0 0h12.8v40.5c0 5.3 4.3 9.5 9.5 9.5s9.5-4.3 9.5-9.5v-50C244.8 436.2 240.5 431.9 235.2 431.9zM116.6 415l-85.1-95.7c-1.6-1.8-2.5-4-2.7-6.3 -5.5-80.7 2.5-152 5.8-176.8 24.3 9 27.9 28.4 25.7 54.5 -1.7 19.1 4.2 40 8.5 52.4 -5.5 2.2-9.9 5.6-13.2 9.7 -9.4 11.9-10.3 32.4 8.6 51.4 28.9 28.9 44.6 43.4 44.8 43.6 3.9 3.6 9.9 3.3 13.5-0.5 3.6-3.9 3.3-9.9-0.5-13.5 -0.2-0.1-15.6-14.5-44.2-43.1 -10.7-10.7-11.2-20.8-7.1-26.1 2.2-2.8 5.9-4.7 10.7-4.9 0.4 0 0.9 0 1.3 0 5.3 0 11.9 1.9 19.4 6.4 40.1 24.3 96.2 74.7 101.7 91.4 4.5 13.5 2.3 52.8 0.4 74.7h-81.8v-1.6C122.4 424.7 120.3 419.2 116.6 415zM194.2 462.3c-6.2 0-11.2 5-11.2 11.2s5 11.2 11.2 11.2 11.2-5 11.2-11.2S200.4 462.3 194.2 462.3zM495.8 129.9c-0.7-4.7-3.3-8.8-7.3-11.4 -4-2.6-9-3.2-13.5-1.8 -47.5 14.8-43.7 58.9-42.2 75.4 1.6 17.8-5.4 38.9-9 48.5 -7.2 0.9-15.2 3.7-23.6 8.8 -37.5 22.7-101.6 76.6-109.9 101.7 -5.9 17.7-3.2 60.3-1.4 80.7h-11.9c-5.3 0-9.5 4.3-9.5 9.5v50c0 5.3 4.3 9.5 9.5 9.5s9.5-4.3 9.5-9.5V451h12.8c0 0 0 0 0 0 0 0 0 0 0 0h112.6v40.5c0 5.3 4.3 9.5 9.5 9.5s9.5-4.3 9.5-9.5v-50c0-5.3-4.3-9.5-9.5-9.5h-12.6v-1.6c0-1 0.4-1.9 1-2.6l85.1-95.7c4.4-4.9 7-11.2 7.5-17.7C508.1 227.5 498.8 151.3 495.8 129.9zM483.2 313c-0.2 2.3-1.1 4.6-2.7 6.3L395.4 415c-3.8 4.2-5.8 9.7-5.8 15.3v1.6h-81.8c-2.2-25.4-3.7-62.3 0.4-74.7 5.6-16.7 61.7-67.1 101.7-91.4 7.5-4.5 14.1-6.4 19.4-6.4 0.4 0 0.9 0.1 1.3 0 4.9 0.3 8.5 2.2 10.7 4.9 4.2 5.3 3.6 15.4-7.1 26.1 -28.6 28.6-44.1 42.9-44.2 43.1 -3.9 3.6-4.1 9.6-0.5 13.5 3.6 3.9 9.6 4.1 13.5 0.5 0.2-0.1 15.9-14.7 44.8-43.6 18.9-18.9 18-39.4 8.6-51.4 -3.2-4.1-7.7-7.5-13.2-9.7 4.3-12.4 10.2-33.3 8.5-52.4 -2.3-26.1 1.3-45.4 25.7-54.5C480.7 160.9 488.7 232.3 483.2 313zM317.8 462.3c-6.2 0-11.2 5-11.2 11.2s5 11.2 11.2 11.2 11.2-5 11.2-11.2S323.9 462.3 317.8 462.3zM278.4 246.8c45.2-17.6 73.6-52.8 79.9-99.1 6.9-50.5-14.4-108.4-49.6-134.8 -3.9-2.9-9.4-2.4-12.7 1.1 -13.3 14.3-30.3 28.2-46.8 41.6 -38.1 31.1-77.6 63.3-77.5 105.4 0 29 18.8 58.5 57.4 90.2 0.7 22.4 4.2 41.6 7.9 56.1 1.1 4.3 5 7.2 9.2 7.2 0.8 0 1.6-0.1 2.4-0.3 5.1-1.3 8.2-6.5 6.9-11.6 -10.2-40.3-18.8-119.7 38.4-199.1 3.1-4.3 2.1-10.2-2.2-13.3 -4.3-3.1-10.2-2.1-13.3 2.2 -33.9 46.9-46.4 93.9-49 133.9 -26-23.7-38.7-45.2-38.7-65.3 0-33.1 34.2-61 70.5-90.6 14.5-11.9 29.5-24.1 42.4-36.9 23.2 22.2 41.9 67.1 35.8 111.5 -3.8 27.7-18.6 64.7-67.9 83.9 -4.9 1.9-7.3 7.5-5.4 12.4C267.9 246.3 273.5 248.7 278.4 246.8z"></path></svg>
+          </span>
+          <span class="text">
+          <span>Respect de l’environnement</span>
+          </span>
+          </div>
+          <div class="panel-content">
+          <p>Nous vous proposons des installations <br> écologiques et économiques.</p>
+          </div>
+          </div>
+
+</div>
+ 
+
+
+
+
+
+
+<br><br><br>
+<div class="titre-text4"   data-aos="fade-up" data-aos-delay="300" >
+  <br><br><br><br>
+    <p>SALLE DE BAINS</p>
+  </div>
+<img class="s2" src="image/S2.png" alt="">
+<section class="mainnn" id="salledebains">
+
+   
+<div class="row1">
+<div class="txxt" data-aos="fade-right"   data-aos-duration="800">
+<h2 >Créations et rénovations de salle de bains</h2>
+<hr> 
+<br>
+<p><b>SamSanit'Air</b> prend en charge la création et la rénovation de votre salle de bains clés en main. Pose, dépose, installations et entretien de tous les appareils sanitaires des salles de bain et toilettes :</p>
+<br>
+<ul>
+    <li>Douche à l'italienne et receveur de douche</li>
+    <li>Paroi de douche</li>
+    <li>Baignoire et balnéo</li>
+    <li>Robinetterie, mitigeur thermostatique et colonne de douche</li>
+    <li>Plancher chauffant</li>
+    <li>Coin toilette, WC, WC suspendu, lave-mains</li>
+    <li>Sèche serviette</li>
+</ul>
+    
+<br><br>
+</div>
+<div class="imgg">
+<img src="image/da24bc162070.jpg" alt="" data-aos="fade-left"   data-aos-duration="800"> 
+</div>
+</div>
+
+
+
+
+<br><br><br><br><br><br>
+
+<div class="row2">
+   
+    <div class="imgg"><br><br><br><br><br><br>
+    </b>
+    <img src="image/sdb-pmr.jpg" alt=""  data-aos="fade-left"   data-aos-duration="800"> 
+    </div>
+
+    <div class="txxt" data-aos="fade-right"   data-aos-duration="800">
+        <h2>Rénovation et installation de salle de bain pour PMR (Personnes à mobilité réduite)</h2>
+        <hr><br>
+        <p><b>SamSonit'Air</b> a sélectionné des marques reconnues pour leur qualité :</p><br><br>
+        <ul>
+            <li>Douche</li>
+            <li>WC</li>
+            <li>Robinetterie</li>
+            <li>Baignoire et lavabo PMR</li>
+            <li>Accessoires de type siège de douche</li>
+            <li>Barre de soutien PMR</li>
+            <li>...</li>
+    
+        </ul>
+<br> 
+        </div>
+
+    </div>
+
+</section>
+<img class="s1" src="image/S1.png" alt="">
+
+
+
+
+<section class="certif">
+
+  <div class="titre-text3"  data-aos="fade-up" data-aos-delay="300">
+    <br><br><br><br>
+      <p>NOS QUALIFICATIONS</p><br><br>
+    </div>
+            <div class="certiff"  data-aos="fade-right" data-aos-delay="450">
+        
+          <img src="image/rge2.jpg" alt="">
+         <img src="image/ecoartisan.jpg" alt="">
+            <img src="image/picto3.png" alt="">
+        <img src="image/qualibois.jpg" alt="">
+           <img src="image/qualipac.jpg" alt="">
+      </div>
+    
+</section>
+
+
+
+<section class="paralllax" id="paralllax">
+</section>
+
+
+
+
+  <section class="contact" id="contact" >
+    <div class="mainn" data-aos="fade-right"  data-aos-duration="1000" >
+             <form action="" method="post">
+               <p class="FORM">FORMULAIRE DE CONTACT</p>
+       <br><br>
+               <div class="input-fields">
+                 <div class="column-1">
+
+                   <input type="text" name="Nom" required placeholder="Votre nom complet*" />
+                   <br><br><br>
+                   <input type="email" name="Email" required placeholder="Votre E-mail *" />
+                   <br><br><br>
+                   <input name="Numéro-Télephone" type="text"  placeholder="Votre Téléphone *"/>
+                   <br><br><br>
+                   <input name="Adresse" type="text"  placeholder="Adresse d'intervention *"/>
+                   <br><br>
+                <textarea name="Message"  id="" cols="45" rows="5" placeholder="    Votre message"></textarea>
+                  
+                 </div>
+                 
+               </div>
+               <div class="buttons">   
+                <button type="submit" class="btn confirm-btn">Envoyer</button>
+               </div>
+              </form>
+             </div>
+         
+  </section>
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45312.646713438604!2d-0.6022763208984825!3d44.77998129999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552132d74e7485%3A0x40665174816cf60!2s33140%20Villenave-d&#39;Ornon%2C%20France!5e0!3m2!1sfr!2stn!4v1656286650717!5m2!1sfr!2stn" width="1535" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+
+
+
+
+
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="logooo">
+      <a href="index.html"><img src="image/Logo Transparent new.png" alt=""></a> 
+      <p>Chauffage-Climatisation-Plomberie <br>
+        Salle de bains Séniors-PMR<br>
+       Audit-Études techniques & Installation.</p>
+
+
+  </div>
+
+      <div class="box">
+          <h3>Navigation</h3>
+          <a href="#home"> <i class="fas fa-arrow-right"></i>A propos </a>
+          <a href="#plombierchauffage"> <i class="fas fa-arrow-right"></i>Plombier & chauffagiste </a>
+          <a href="#salledebains"> <i class="fas fa-arrow-right"></i>Salle de bains</a>
+          <a href="contact.html"> <i class="fas fa-arrow-right"></i>Contact</a>
+      </div>
+
+      <div class="box">
+          <h3>Informations</h3>
+          <a href="https://goo.gl/maps/yzQv5bgYfdPmUKbn6"><i class="fas fa-map-marker-alt"></i>   Villenave-d'Ornon
+            33140,
+            France </a>
+          <a href=""> <i class="fas fa-phone"></i> +33 3 33 33 33 33 </a>
+          <a href=""> <i class="fas fa-envelope"></i>  samsanitair2022@gmail.com</a>
+          <a href="contact.html"> <i aria-hidden="true" class="fab fa-wpforms"></i> Formulaire de contact</a>
+          
+      </div>
+      
+  </div>
+
+  <div class="share">
+      <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+      <a href="https://twitter.com/?lang=fr" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+
+  </div>
+
+  <div class="credit"> 2022 © Copyright - SamSanit'Air - Tous droits réservés </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
